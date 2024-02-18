@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -14,26 +20,65 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: var(--blue);
   transition: 0.4s;
-  padding: 3px;
+  /* padding: 3px; */
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+/* todo 以下為自訂 class */
+
+/* 深淺模式測試用 */
+
+.text-default {
+  color: var(--color-text);
+}
+
+.bg-default {
+  background-color: var(--color-background);
+}
+
+/* svg hover */
+.icon-hover-fill-blue:hover {
+  fill: var(--blue);
+}
+
+.icon-hover-fill-blue-dark:hover {
+  path {
+    fill: var(--blue-dark);
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+/* 預設樣式 */
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.text-blue {
+  color: var(--blue);
+}
+
+.text-blue-dark {
+  color: var(--blue-dark);
+}
+
+.border-blue {
+  border-color: var(--blue);
+}
+
+.border-blue-dark {
+  border-color: var(--blue-dark);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-blue-dark {
+  background-color: var(--blue-dark);
+}
+
+.bg-blue-light {
+  background-color: var(--blue-light);
+}
+
+/* shadow */
+.btn-shadow {
+  box-shadow: -1px -2px 1px 0 #0000002d inset;
 }
