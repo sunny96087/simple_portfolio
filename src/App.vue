@@ -176,7 +176,7 @@ const iconMoon = ref(
 }
 
 .router-link-active {
-  background-color: var(--blue-dark);
+  background-color: var(--blue);
   color: white;
   box-shadow: -1px -2px 1px 0 #0000002d inset;
 }
