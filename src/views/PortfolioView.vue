@@ -87,19 +87,19 @@ const openModal = (project) => {
   selectedProject.value = project
 }
 
-// const closeOnEsc = (event) => {
-//   if (event.key === 'Escape') {
-//     selectedProject.value = null
-//   }
-// }
+const closeOnEsc = (event) => {
+  if (event.key === 'Escape') {
+    selectedProject.value = null
+  }
+}
 
-// onMounted(() => {
-//   window.addEventListener('keydown', closeOnEsc)
-// })
+onMounted(() => {
+  window.addEventListener('keydown', closeOnEsc)
+})
 
-// onUnmounted(() => {
-//   window.removeEventListener('keydown', closeOnEsc)
-// })
+onUnmounted(() => {
+  window.removeEventListener('keydown', closeOnEsc)
+})
 </script>
 
 <template>
