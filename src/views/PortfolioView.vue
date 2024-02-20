@@ -87,19 +87,19 @@ const openModal = (project) => {
   selectedProject.value = project
 }
 
-const closeOnEsc = (event) => {
-  if (event.key === 'Escape') {
-    selectedProject.value = null;
-  }
-};
+// const closeOnEsc = (event) => {
+//   if (event.key === 'Escape') {
+//     selectedProject.value = null
+//   }
+// }
 
-onMounted(() => {
-  window.addEventListener('keydown', closeOnEsc);
-});
+// onMounted(() => {
+//   window.addEventListener('keydown', closeOnEsc)
+// })
 
-onUnmounted(() => {
-  window.removeEventListener('keydown', closeOnEsc);
-});
+// onUnmounted(() => {
+//   window.removeEventListener('keydown', closeOnEsc)
+// })
 </script>
 
 <template>
@@ -155,25 +155,6 @@ onUnmounted(() => {
 
     <!-- modal -->
     <div v-if="selectedProject" class="modal">
-      <div class="btn-close" @click="selectedProject = null">
-        <svg
-          width="80"
-          height="80"
-          viewBox="0 0 80 80"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          class="icon-hover-stroke-blue-dark w-14 h-14 sm:w-20 sm:h-20"
-        >
-          <path
-            d="M20 60L60 20M20 20L60 60"
-            stroke="var(--blue)"
-            stroke-width="8"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </div>
-
       <div class="marquee">
         <div class="marquee-content">
           {{ selectedProject.marquee }}
@@ -183,6 +164,24 @@ onUnmounted(() => {
       <div class="view-pic">
         <img :src="selectedProject.viewPic" alt="Selected project viewPic" draggable="false" />
       </div>
+    </div>
+    <div v-if="selectedProject" class="btn-close" @click="selectedProject = null">
+      <svg
+        width="80"
+        height="80"
+        viewBox="0 0 80 80"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon-hover-stroke-blue-dark w-14 h-14 sm:w-20 sm:h-20"
+      >
+        <path
+          d="M20 60L60 20M20 20L60 60"
+          stroke="var(--blue)"
+          stroke-width="8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
     </div>
   </div>
 </template>
@@ -229,12 +228,10 @@ onUnmounted(() => {
       @apply w-full;
     }
   }
-
-  .btn-close {
-    @apply absolute top-[20px] right-[20px] cursor-pointer z-20;
-  }
 }
-
+.btn-close {
+  @apply fixed top-[20px] right-[20px] cursor-pointer z-20;
+}
 // marquee
 .marquee {
   @apply w-full overflow-hidden sticky top-0 py-2;
