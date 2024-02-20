@@ -39,12 +39,26 @@ a,
 
 /* svg hover */
 .icon-hover-fill-blue:hover {
-  fill: var(--blue);
+  path {
+    fill: var(--blue);
+  }
 }
 
 .icon-hover-fill-blue-dark:hover {
   path {
     fill: var(--blue-dark);
+  }
+}
+
+.icon-hover-stroke-blue:hover {
+  path {
+    stroke: var(--blue);
+  }
+}
+
+.icon-hover-stroke-blue-dark:hover {
+  path {
+    stroke: var(--blue-dark);
   }
 }
 
