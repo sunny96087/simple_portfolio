@@ -1,35 +1,37 @@
-# simple_portfolio
+# 誼姍 - 個人作品集
 
-This template should help get you started developing with Vue 3 in Vite.
+網站用來放置個人作品與資料！
 
-## Recommended IDE Setup
+###### 使用技術  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+  >Vue3.js & Vite & composition API  
+  >SCSS + Taliwind CSS  
+  >firebase  
 
-## Customize configuration
+###### 專案相關文件
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 專案指令區
 
-## Project Setup
+### 下載專案套件
 
 ```sh
-npm install
+npm i
 ```
 
-### Compile and Hot-Reload for Development
+### 執行專案
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### 執行專案 -- 可用手機看
+
+```sh
+npm run dev -- --host
+```
+
+### 打包專案
 
 ```sh
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
