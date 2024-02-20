@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <main>
-    <div class="flex gap-20 justify-center">
+    <div class="flex flex-col-reverse items-center sm:items-start sm:flex-row gap-20 justify-center">
       <!-- left -->
       <div class="flex flex-col gap-[82px]">
         <!-- 使用者介面設計 -->

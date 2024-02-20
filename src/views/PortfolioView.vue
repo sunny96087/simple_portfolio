@@ -6,8 +6,8 @@ const projects = ref([
     name: '軌道漫遊列車之旅',
     description:
       '這是一個團隊合作開發的網站項目，<br>旨在提供使用者一個互動式的平台，探索和計劃他們的小火車旅行。<br>在這個項目中，我參與了從概念發想到最終產品的全過程。<br>我負責網站的介面設計和前後端開發，使用 Vue.js 和 SCSS 來創建響應式的用戶界面，並透過 JavaScript 增強互動性。<br>後端方面，我使用 PHP 和 MySQL 進行資料庫的規劃和建置，並利用 Ajax 和 Axios 技術實現前後端的資料串接。<br>這個項目不僅鍛鍊了我的全端開發能力，也讓我學習到團隊合作如何溝通及解決問題。',
-    github: '',
-    demo: '',
+    github: 'https://github.com/sunny96087/project',
+    demo: 'https://sunny96087.github.io/project/',
     viewPic: 'src/assets/img/view-pic-1.png',
     marquee:
       '軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ 軌道漫遊列車之旅 ・ '
@@ -18,8 +18,8 @@ const projects = ref([
     name: '餓魚漢堡',
     description:
       '這是一個自行構想和設計的漢堡餐廳介紹靜態網站，提供菜單、門市查找、最新消息及食品保證書查看，使用HTML、CSS、JavaScript和jQuery技術開發。',
-    github: '',
-    demo: '',
+    github: 'https://github.com/vicky5645/chd102-g1/tree/dev',
+    demo: 'https://tibamef2e.com/chd102/g1/',
     viewPic: 'src/assets/img/view-pic-2.png',
     marquee:
       '餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ 餓魚漢堡 ・ '
@@ -30,8 +30,8 @@ const projects = ref([
     name: '虛擬貓咪總統大選開票網站',
     description:
       '這是一個團隊合作開發的虛擬貓咪總統大選開票網站，為六角學院2023年The F2E 5th修煉精神時光屋比賽的作品。<br>採用圖像化呈現得票數據，讓使用者輕易掌握選情。<br>我負責首頁、候選人介紹頁及Navbar的開發，使用技術包括JavaScript ES6、Vue3 + Vite、Scss、RWD 和 Git 。<br>遇到的挑戰包括首頁不規則排版和候選人頁面的資料抓取。<br>此外，我還負責製作桌機及手機版的prototype。',
-    github: '',
-    demo: '',
+    github: 'https://github.com/edwardtsai54398/F2Evotefortw2024',
+    demo: 'https://edwardtsai54398.github.io/F2Evotefortw2024/#/',
     viewPic: 'src/assets/img/view-pic-3.png',
     marquee:
       '虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ 虛擬貓咪總統大選開票網站 ・ '
@@ -42,8 +42,8 @@ const projects = ref([
     name: '拼拼 - 募資網站',
     description:
       '這是一個靜態募資網站，包含專案介紹、常見問答、目前進度、留言、方案選擇和贊助專案等區塊。<br>網站主要使用HTML、CSS、Bootstrap、JavaScript 技術開發。',
-    github: '',
-    demo: '',
+    github: 'https://github.com/sunny96087/BT5_pinpin',
+    demo: 'https://sunny96087.github.io/BT5_pinpin/#',
     viewPic: 'src/assets/img/view-pic-4.png',
     marquee:
       '拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ 拼拼 - 募資網站 ・ '
@@ -64,7 +64,7 @@ const openModal = (project) => {
     <div class="project-list">
       <div class="project-item" v-for="item in projects" :key="item.name">
         <div class="pic cursor-pointer" @click="openModal(item)">
-          <img :src="item.pic" alt="project pic" class="w-full" />
+          <img :src="item.pic" alt="project pic" class="w-full" draggable="false" />
         </div>
         <div class="content">
           <span class="text-blue-dark font-medium text-[15px]">{{ item.type }}</span>
@@ -119,7 +119,7 @@ const openModal = (project) => {
           viewBox="0 0 80 80"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="icon-hover-stroke-blue-dark"
+          class="icon-hover-stroke-blue-dark w-14 h-14 sm:w-20 sm:h-20"
         >
           <path
             d="M20 60L60 20M20 20L60 60"
@@ -138,7 +138,7 @@ const openModal = (project) => {
       </div>
 
       <div class="view-pic">
-        <img :src="selectedProject.viewPic" alt="Selected project viewPic" />
+        <img :src="selectedProject.viewPic" alt="Selected project viewPic" draggable="false" />
       </div>
     </div>
   </div>
@@ -150,7 +150,7 @@ const openModal = (project) => {
 }
 
 .project-item {
-  @apply grid grid-cols-2 gap-10 items-center justify-center;
+  @apply grid sm:grid-cols-2 gap-3 sm:gap-10 items-center justify-center;
 }
 
 .pic {
@@ -180,7 +180,7 @@ const openModal = (project) => {
   background-color: #7097cd4a;
 
   .view-pic {
-    @apply w-full flex justify-center items-center px-[60px] py-[60px];
+    @apply w-full flex justify-center items-center px-5 py-5 sm:px-[60px] sm:py-[60px];
 
     img {
       @apply w-full;
@@ -196,13 +196,14 @@ const openModal = (project) => {
 .marquee {
   @apply w-full overflow-hidden sticky top-0 py-2;
   white-space: nowrap;
-  background-color: #e9f0ff90;
+  background-color: #e9f0ff99;
 }
 
 .marquee-content {
-  @apply text-[24px] inline-block pl-[100%]  tracking-[5px];
-  color: #7097cdc4;
+  @apply sm:text-[24px] inline-block pl-[100%]  tracking-[5px];
+  color: var(--blue);
   animation: marquee 100s linear infinite;
+  user-select: none; // 防止文字被選擇
 }
 
 @keyframes marquee {

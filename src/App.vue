@@ -40,7 +40,7 @@ const iconMoon = ref(
 </script>
 
 <template>
-  <div>
+  <div class="relative">
     <!-- <button @click="toggleTheme">{{ themeStore.isDarkMode ? '淺色' : '暗色' }}模式</button> -->
     <div class="flex justify-end">
       <button @click="toggleTheme">
@@ -154,7 +154,7 @@ const iconMoon = ref(
     </div>
 
     <!-- Navbar -->
-    <nav class="my-10 p-1 bg-blue-light rounded-[8px] inline-block flex-nowrap">
+    <nav class="my-10 p-1 bg-blue-light rounded-[8px] inline-block flex-nowrap sticky top-5 shadow">
       <RouterLink to="/" class="nav-item">經歷</RouterLink>
       <RouterLink to="/portfolio" class="nav-item">作品集</RouterLink>
       <RouterLink to="/skill" class="nav-item">技能</RouterLink>

@@ -2,7 +2,7 @@
 
 <template>
   <main>
-    <div class="flex gap-20 justify-center">
+    <div class="flex flex-col-reverse sm:flex-row gap-20 justify-center">
       <!-- 求學經歷 -->
       <div class="flex flex-col items-center gap-9">
         <!-- title -->
@@ -38,10 +38,27 @@
             <div class="dot"></div>
             <div class="line"></div>
             <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
           </div>
 
           <!-- text -->
-          <div class="flex flex-col gap-9">
+          <div class="flex flex-col gap-9 w-[220px]">
+            <!-- 北訓電腦 -->
+            <div class="flex flex-col text-left gap-[6px]">
+              <p class="text-title">Web前端框架實戰班第01期</p>
+              <div class="flex flex-col">
+                <p class="text-location">北訓電腦職訓中心</p>
+                <p class="text-date">
+                  <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
+                  2024.02 ~ 2023.04
+                </p>
+              </div>
+            </div>
+
+            <!-- 緯育 -->
             <div class="flex flex-col text-left gap-[6px]">
               <p class="text-title">前端工程師專業技術養成班</p>
               <div class="flex flex-col">
@@ -53,6 +70,19 @@
               </div>
             </div>
 
+            <!-- 赫綵 -->
+            <div class="flex flex-col text-left gap-[6px]">
+              <p class="text-title">商用視覺平面設計</p>
+              <div class="flex flex-col">
+                <p class="text-location">赫綵設計學院</p>
+                <p class="text-date">
+                  <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
+                  2022.11 ~ 2023.04
+                </p>
+              </div>
+            </div>
+
+            <!-- 育德 -->
             <div class="flex flex-col text-left gap-[6px]">
               <p class="text-title">飛機修護科</p>
               <div class="flex flex-col">
@@ -105,7 +135,7 @@
           </div>
 
           <!-- text -->
-          <div class="flex flex-col gap-9">
+          <div class="flex flex-col gap-9 w-[220px]">
             <div class="flex flex-col text-left gap-[6px]">
               <p class="text-title">前端工程師 & UIUX</p>
               <div class="flex flex-col">
