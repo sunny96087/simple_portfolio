@@ -1,7 +1,9 @@
 <script setup></script>
 <template>
   <main>
-    <div class="flex flex-col-reverse items-center sm:items-start sm:flex-row gap-20 justify-center">
+    <div
+      class="flex flex-col-reverse items-center sm:items-start sm:flex-row gap-[68px] sm:gap-12 md:gap-20 justify-center"
+    >
       <!-- left -->
       <div class="flex flex-col gap-[82px]">
         <!-- 使用者介面設計 -->
@@ -33,6 +35,7 @@
             </div>
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />MySQL</div>
+              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Linux</div>
             </div>
           </div>
         </div>
@@ -46,24 +49,27 @@
           <div class="content">
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />HTML</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />CSS, SASS</div>
+              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />CSS, SCSS</div>
               <div class="item">
                 <img src="@/assets/img/icon/check.svg" alt="check" />JavaScript
               </div>
+              <div class="item">
+                <img src="@/assets/img/icon/check.svg" alt="check" />TypeScript
+              </div>
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />jQuery</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Vue.js</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Firebase</div>
+              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Vue 3</div>
             </div>
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Github</div>
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Ajax</div>
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Axios</div>
               <div class="item">
-                <img src="@/assets/img/icon/check.svg" alt="check" />Bootstrap
+                <img src="@/assets/img/icon/check.svg" alt="check" />Bootstrap 5
               </div>
               <div class="item">
-                <img src="@/assets/img/icon/check.svg" alt="check" />Tailwind
+                <img src="@/assets/img/icon/check.svg" alt="check" />Tailwind CSS
               </div>
+              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Firebase</div>
             </div>
           </div>
         </div>
@@ -86,6 +92,6 @@
 }
 
 .item {
-  @apply w-[110px] flex items-center gap-2 font-medium col-span-1;
+  @apply w-[120px] flex items-center gap-2 font-medium col-span-1;
 }
 </style>

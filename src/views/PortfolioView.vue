@@ -52,10 +52,10 @@ const projects = ref([
 
 import { ref } from 'vue'
 
-const selectedProject = ref(null) // 存储被选中的项目
+const selectedProject = ref(null)
 
 const openModal = (project) => {
-  selectedProject.value = project // 设置被选中的项目
+  selectedProject.value = project
 }
 </script>
 

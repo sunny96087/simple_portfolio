@@ -48,12 +48,12 @@
           <div class="flex flex-col gap-9 w-[220px]">
             <!-- 北訓電腦 -->
             <div class="flex flex-col text-left gap-[6px]">
-              <p class="text-title">Web前端框架實戰班第01期</p>
+              <p class="text-title">Web前端框架實戰班</p>
               <div class="flex flex-col">
                 <p class="text-location">北訓電腦職訓中心</p>
                 <p class="text-date">
                   <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
-                  2024.02 ~ 2023.04
+                  2024.02 ~ 2024.04
                 </p>
               </div>
             </div>
@@ -137,12 +137,12 @@
           <!-- text -->
           <div class="flex flex-col gap-9 w-[220px]">
             <div class="flex flex-col text-left gap-[6px]">
-              <p class="text-title">前端工程師 & UIUX</p>
+              <p class="text-title">前端工程師 & UIUX 設計師</p>
               <div class="flex flex-col">
                 <p class="text-location">誠諾工程技術股份有限公司</p>
                 <p class="text-date">
                   <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
-                  2023.09 ~ 現在
+                  2023.09 ~ 現職
                 </p>
               </div>
             </div>

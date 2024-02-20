@@ -42,7 +42,7 @@ const iconMoon = ref(
 <template>
   <div class="relative">
     <!-- <button @click="toggleTheme">{{ themeStore.isDarkMode ? '淺色' : '暗色' }}模式</button> -->
-    <div class="flex justify-end">
+    <div class="flex justify-end sticky top-8">
       <button @click="toggleTheme">
         <span v-if="themeStore.isDarkMode" v-html="iconSun"></span>
         <span v-else v-html="iconMoon"></span>
@@ -134,7 +134,7 @@ const iconMoon = ref(
         </svg>
       </a>
 
-      <a href="tel:0963460316" class="p-4 border border-blue rounded-[6px] btn-shadow">
+      <a href="tel:0963460316" class="p-4 border border-blue rounded-[6px] btn-shadow tel-block">
         <svg
           width="24"
           height="24"
@@ -181,4 +181,19 @@ const iconMoon = ref(
   box-shadow: -1px -2px 1px 0 #0000002d inset;
 }
 
+.tel-block {
+  @apply relative inline-block;
+}
+
+.tel-block::after {
+  @apply right-0 absolute -bottom-[36px] hidden text-gray-700 text-[14px] px-3 py-1 rounded-sm;
+  content: '聯絡電話 0963-460-316';
+  white-space: nowrap;
+  transition: opacity 0.3s;
+  background-color: #dde9ff;
+}
+
+.tel-block:hover::after {
+  @apply block;
+}
 </style>
