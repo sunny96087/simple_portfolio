@@ -108,6 +108,10 @@ onUnmounted(() => {
       <div class="project-item" v-for="item in projects" :key="item.name">
         <div class="pic cursor-pointer" @click="openModal(item)">
           <img :src="item.pic" alt="project pic" class="w-full" draggable="false" />
+          <div class="overlay">
+            <div class="left-text text">View</div>
+            <div class="right-text text">More</div>
+          </div>
         </div>
         <div class="content">
           <span class="text-blue-dark font-medium text-[15px]">{{ item.type }}</span>
@@ -153,7 +157,7 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <!-- modal -->
+    <!-- view pic modal -->
     <div v-if="selectedProject" class="modal">
       <div class="marquee">
         <div class="marquee-content">
@@ -196,8 +200,57 @@ onUnmounted(() => {
 }
 
 .pic {
-  @apply rounded-[24px] overflow-hidden;
+  @apply rounded-[24px] overflow-hidden relative;
   box-shadow: 2px 3px 2px 0 #a5bbda4f;
+}
+
+.pic img {
+  transition: transform 0.5s ease;
+}
+
+// .pic:hover img {
+//   transform: scale(1.1);
+// }
+
+.overlay {
+  @apply absolute inset-0 opacity-0 flex justify-center gap-5 items-center;
+
+  background: #7097cd4a;
+  transition: opacity 0.5s ease;
+}
+
+.pic:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  @apply font-semibold text-white text-[28px] opacity-0;
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.left-text {
+  transform: translateY(-80px);
+}
+
+.right-text {
+  transform: translateY(80px);
+}
+
+.pic:hover .text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.pic:hover .text:first-child {
+  transition-delay:
+    opacity 0s,
+    transform 0.3s;
+}
+
+.pic:hover .text:last-child {
+  transition-delay: 0.2s;
 }
 
 .content {

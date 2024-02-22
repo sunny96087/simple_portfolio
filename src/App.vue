@@ -42,7 +42,7 @@ const iconMoon = ref(
 <template>
   <div class="relative">
     <!-- <button @click="toggleTheme">{{ themeStore.isDarkMode ? '淺色' : '暗色' }}模式</button> -->
-    <div class="flex justify-end sticky top-8">
+    <div class="flex justify-end">
       <button @click="toggleTheme">
         <span v-if="themeStore.isDarkMode" v-html="iconSun"></span>
         <span v-else v-html="iconMoon"></span>
@@ -113,7 +113,7 @@ const iconMoon = ref(
     <!-- about me -->
     <div class="flex justify-center gap-7 mt-5">
       <div class="flex flex-col">
-        <p class="font-semibold">1Y +</p>
+        <p class="font-semibold">4Y +</p>
         <p class="text-[14px] font-medium text-blue-dark">工作經驗</p>
       </div>
 
@@ -131,7 +131,7 @@ const iconMoon = ref(
     <!-- view 履歷 & call me -->
     <div class="flex justify-center gap-5 mt-5">
       <a
-        href="https://github.com/sunny96087"
+        href="https://drive.google.com/file/d/1A_w2QD9cXCJ-4mzU88pwkkIve02foiHb/view?usp=sharing"
         target="_blank"
         class="flex items-center text-[14px] font-semibold text-white px-5 py-3 bg-blue btn-shadow rounded-[6px]"
       >
@@ -173,7 +173,7 @@ const iconMoon = ref(
     </div>
 
     <!-- Navbar -->
-    <nav class="my-10 p-1 bg-blue-light rounded-[8px] inline-block flex-nowrap sticky top-5 shadow">
+    <nav class="my-10 p-1 bg-blue-light rounded-[8px] inline-block flex-nowrap sticky top-5 shadow z-[999]">
       <RouterLink to="/" class="nav-item">經歷</RouterLink>
       <RouterLink to="/portfolio" class="nav-item">作品集</RouterLink>
       <RouterLink to="/skill" class="nav-item">技能</RouterLink>
