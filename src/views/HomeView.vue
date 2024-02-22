@@ -60,7 +60,7 @@
 
             <!-- 緯育 -->
             <div class="flex flex-col text-left gap-[6px]">
-              <p class="text-title">前端工程師專業技術養成班</p>
+              <p class="text-title">前端工程師養成班</p>
               <div class="flex flex-col">
                 <p class="text-location">緯育 TibaMe（前中壢資策會）</p>
                 <p class="text-date">
