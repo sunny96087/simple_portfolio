@@ -271,7 +271,7 @@ onUnmounted(() => {
 }
 
 .modal {
-  @apply fixed inset-0 overflow-auto backdrop-blur-[2px];
+  @apply fixed inset-0 overflow-auto backdrop-blur-[2px] z-[1000];
   background-color: #7097cd4a;
 
   .view-pic {
@@ -283,7 +283,7 @@ onUnmounted(() => {
   }
 }
 .btn-close {
-  @apply fixed top-[20px] right-[20px] cursor-pointer z-20;
+  @apply fixed top-[20px] right-[20px] cursor-pointer z-[1001];
 }
 // marquee
 .marquee {
