@@ -17,9 +17,9 @@
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Mongoose</div>
             </div>
             <div class="content-col">
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />PHP</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />MSSQL</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Linux</div>
+              <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />PHP</div>
+              <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />MSSQL</div>
+              <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />Linux</div>
             </div>
           </div>
         </div>
@@ -31,12 +31,12 @@
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Figma</div>
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Mockup</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Photoshop</div>
+              <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />Photoshop</div>
             </div>
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Wireframe</div>
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Prototype</div>
-              <div class="item">
+              <div class="item text-gray-500">
                 <img src="@/assets/img/icon/check.svg" alt="check" />Illustrator
               </div>
             </div>
@@ -58,7 +58,7 @@
               <div class="item">
                 <img src="@/assets/img/icon/check.svg" alt="check" />JavaScript
               </div>
-              <div class="item">
+              <div class="item ">
                 <img src="@/assets/img/icon/check.svg" alt="check" />TypeScript
               </div>
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />jQuery</div>
@@ -66,10 +66,9 @@
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Nuxt 3</div>
             </div>
             <div class="content-col">
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Github</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />RWD</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Ajax</div>
-              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Axios</div>
+              <div class="item "><img src="@/assets/img/icon/check.svg" alt="check" />Github</div>
+              <div class="item "><img src="@/assets/img/icon/check.svg" alt="check" />RWD</div>
+              <div class="item "><img src="@/assets/img/icon/check.svg" alt="check" />Axios</div>
               <div class="item">
                 <img src="@/assets/img/icon/check.svg" alt="check" />Bootstrap 5
               </div>
@@ -99,6 +98,8 @@
 }
 
 .item {
-  @apply w-[120px] flex items-center gap-2 font-medium col-span-1;
+  @apply w-[124px] flex items-center gap-2 font-medium col-span-1;
 }
+
+
 </style>

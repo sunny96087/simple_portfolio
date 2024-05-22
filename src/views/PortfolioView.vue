@@ -28,7 +28,83 @@ const viewPic4 = ref(
   'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-4.png?alt=media&token=66d2659d-b181-42c0-ac88-9933a6e05da2'
 )
 
+const projectPic5 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fproject-pic-5.png?alt=media&token=fc369e5b-2094-4172-ae7c-4ceba0e3c8be'
+)
+const viewPic5 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-5.png?alt=media&token=3141544c-0579-490e-a507-4e848bf67c1a'
+)
+
+const projectPic6 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fproject-pic-6.png?alt=media&token=e8366912-60f7-4fbf-9989-cbdeb01b8156'
+)
+const viewPic6 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-6.png?alt=media&token=e3555db5-77bd-4fcc-ac9f-4656aaa4bc6a'
+)
+
+const projectPic7 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fproject-pic-7.png?alt=media&token=ee802582-3870-4ba3-85e8-8e72136f31c3'
+)
+const viewPic7 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-7.png?alt=media&token=9670b1dc-df3d-4fff-b965-c94c06a5de95'
+)
+
+const projectPic8 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fproject-pic-8.png?alt=media&token=0ce8c72a-361e-4738-8fcb-58d24a90476c'
+)
+const viewPic8 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-8.png?alt=media&token=b191db34-2aba-4417-8a21-28026c6fb167'
+)
+
 const projects = ref([
+  {
+    pic: projectPic5,
+    type: 'WEB',
+    name: '社群網站 Chat!',
+    description:
+      '這是一個社群互動平台，<br/>是我在六角學院 Node.js 入門班的作品，<br/>前端使用 Nuxt 3、CKEditor 5、Pinia、ESLint 和 Axios 技術，<br/>後端則採用 Node.js、Express、Mongoose、Validator、Node-Cron、Dotenv、Firebase-Admin、Multer、Tinify、Swagger 和 Google APIs，<br/>資料庫方面使用 MongoDB 和 Firebase Storage。<br/>主要功能包括用戶登入註冊、新增文章、文章檢索、點讚留言、查看公告和追蹤用戶等，並且實現了 Email 驗證功能以確保用戶註冊和登入的安全性。',
+    github: 'https://github.com/sunny96087/express_community',
+    demo: 'https://community-web-4l2.pages.dev/',
+    viewPic: viewPic5,
+    marquee:
+      '社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ 社群網站 Chat! ・ '
+  },
+  {
+    pic: projectPic6,
+    type: 'WEB',
+    name: '我的部落格',
+    description:
+      '這是我的部落格，分享日常研究及開發點滴，<br/>使用 Hexo 和 "landscape" 主題建立。',
+    github: 'https://sunny96087.github.io/hexo-blog/',
+    demo: 'https://github.com/sunny96087/hexo-blog',
+    viewPic: viewPic6,
+    marquee:
+      '我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ '
+  },
+  {
+    pic: projectPic7,
+    type: 'WEB',
+    name: '品牌形象網站',
+    description:
+      '這是一個靜態品牌形象網站，<br>參加六角 2024 體驗營切版任務作業二的作品，<br>使用 Vue 3、Nuxt、tailwindcss 和 swiper，<br/>有首頁、作品集、服務項目、部落格和聯絡我等頁面。',
+    github: 'https://github.com/sunny96087/business_website',
+    demo: 'https://business-website-2fishs-projects.vercel.app/',
+    viewPic: viewPic7,
+    marquee:
+      '品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ 品牌形象網站 ・ '
+  },
+  {
+    pic: projectPic8,
+    type: 'WEB',
+    name: '作品集',
+    description:
+      '這是我的個人作品集網站，<br>使用 Vue 3、Composition API 和 Vite 開發，<br>展示了我的經歷、專案和技能。',
+    github: 'https://github.com/sunny96087/simple_portfolio',
+    demo: 'https://simpleportfolio-64b60.web.app/portfolio',
+    viewPic: viewPic8,
+    marquee:
+      '個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ '
+  },
   {
     pic: projectPic1,
     type: 'WEB',

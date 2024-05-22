@@ -148,15 +148,30 @@
             <div class="dot"></div>
             <div class="line"></div>
             <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
           </div>
 
           <!-- text -->
           <div class="flex flex-col gap-9 w-[220px]">
-            <!-- 賀丞交有限公司 -->
+            
+            <!-- 嘉好企業有限公司 -->
             <div class="flex flex-col text-left gap-[6px]">
-              <p class="text-title">前端工程師</p>
+              <p class="text-title">全端工程師</p>
               <div class="flex flex-col">
-                <p class="text-location">賀丞交有限公司</p>
+                <p class="text-location">銳傑資訊設計企業社</p>
+                <p class="text-date">
+                  <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
+                  2024.03 ~ 現職
+                </p>
+              </div>
+            </div>
+
+            <!-- 嘉好企業有限公司 -->
+            <div class="flex flex-col text-left gap-[6px]">
+              <p class="text-title">前端工程師(兼)</p>
+              <div class="flex flex-col">
+                <p class="text-location">嘉好企業有限公司</p>
                 <p class="text-date">
                   <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
                   2024.03 ~ 現職

@@ -58,7 +58,7 @@ const iconMoon = ref(
     <h2 class="text-blue-dark font-medium text-[14px] mt-1">前端工程師 Frontend Developer</h2>
     <!-- github & email & linkedin -->
     <div class="flex justify-center gap-2 mt-2">
-      <a href="https://github.com/sunny96087" target="_blank" class="icon-hover-fill-blue-dark">
+      <a href="https://github.com/sunny96087" target="_blank" class="icon-hover-fill-blue-dark" title="github">
         <svg
           width="24"
           height="24"
@@ -74,9 +74,29 @@ const iconMoon = ref(
       </a>
 
       <a
+        href="https://github.com/sunny96087/hexo-blog"
+        target="_blank"
+        class="icon-hover-fill-blue-dark"
+        title="部落格"
+      >
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_100_132)">
+          <path d="M19.483 21H4.52047C4.32073 21.0013 4.12273 20.9629 3.93791 20.8872C3.75309 20.8114 3.58512 20.6998 3.44373 20.5587C3.30234 20.4176 3.19032 20.2499 3.11416 20.0653C3.038 19.8806 2.99921 19.6827 3.00003 19.483V4.52045C2.99876 4.32071 3.03712 4.12271 3.11286 3.93789C3.18861 3.75307 3.30026 3.58511 3.44134 3.44371C3.58242 3.30232 3.75014 3.1903 3.93479 3.11414C4.11944 3.03798 4.31735 2.99919 4.51709 3.00001H19.5381C20.3262 3.00001 21 3.67333 21 4.51708V19.4824C21 20.3261 20.3267 21 19.483 21ZM12 5.98295H9.75003C8.75108 5.9834 7.79317 6.38043 7.08681 7.08679C6.38044 7.79316 5.98341 8.75106 5.98297 9.75001V14.25C5.98341 15.249 6.38044 16.2069 7.08681 16.9132C7.79317 17.6196 8.75108 18.0166 9.75003 18.0171H14.25C15.249 18.0166 16.2069 17.6196 16.9132 16.9132C17.6196 16.2069 18.0166 15.249 18.0171 14.25V11.2671C18.0171 10.8193 17.6802 10.4824 17.2296 10.4824H16.5C16.108 10.4824 15.7671 10.1421 15.7671 9.74945C15.7673 9.25453 15.6701 8.76441 15.4809 8.30708C15.2917 7.84975 15.0142 7.43416 14.6644 7.08405C14.3146 6.73393 13.8993 6.45614 13.4421 6.26654C12.985 6.07694 12.4949 5.97923 12 5.97901V5.98295ZM14.3057 14.983H9.75003C9.35797 14.983 9.01709 14.6426 9.01709 14.25C9.01709 13.8574 9.3574 13.5171 9.75003 13.5171H14.3057C14.7017 13.5171 15.0387 13.8546 15.0387 14.25C15.0387 14.6455 14.7017 14.983 14.3057 14.983ZM12.3921 9.01708C12.7881 9.01708 13.125 9.35739 13.125 9.75001C13.125 10.1426 12.7881 10.483 12.3921 10.483H9.69434C9.29834 10.483 8.9614 10.1426 8.9614 9.75001C8.9614 9.35739 9.29834 9.01708 9.69434 9.01708H12.3921Z" fill="#7096CD"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_100_132">
+          <rect width="18" height="18" fill="white" transform="translate(3 3)"/>
+          </clipPath>
+          </defs>
+        </svg>
+
+      </a>
+
+      <a
         href="https://www.facebook.com/sunny.uy.9/"
         target="_blank"
         class="icon-hover-fill-blue-dark"
+        title="facebook"
       >
         <svg
           width="24"
@@ -92,7 +112,7 @@ const iconMoon = ref(
         </svg>
       </a>
 
-      <a href="mailto:yain13142013@gmail.com" target="_blank" class="icon-hover-fill-blue-dark">
+      <a href="mailto:yain13142013@gmail.com" target="_blank" class="icon-hover-fill-blue-dark" title="email">
         <svg
           width="24"
           height="24"
@@ -118,7 +138,7 @@ const iconMoon = ref(
       </div>
 
       <div class="flex flex-col">
-        <p class="font-semibold">7 +</p>
+        <p class="font-semibold">8 +</p>
         <p class="text-[14px] font-medium text-blue-dark">完成專案</p>
       </div>
 
