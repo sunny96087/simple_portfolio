@@ -1,4 +1,27 @@
-<script setup></script>
+<script setup>
+
+// gtag.js click_action 事件
+window.dataLayer = window.dataLayer || []
+function gtag() {
+  dataLayer.push(arguments)
+}
+gtag('js', new Date())
+gtag('config', 'G-CRQ1NSS9T8') // 將你的 GA4 串流評估 ID 放在這裡
+
+// 設定監聽 click 事件
+document.addEventListener('click', function (e) {
+  let el_tag = e.target.tagName // 取得 tag 名稱
+  let el_id = e.target.tagName || 'unset' // 取得 id，如果沒有 id 就使用 unset
+  let el_class = e.target.getAttribute('class') || 'unset' // 取得 class，如果沒有 class 就使用 unset
+  console.log(el_tag, el_id, el_class)
+  // 發送點擊事件
+  gtag('event', 'click_action', {
+    tag: el_tag,
+    id: el_id,
+    class: el_class
+  })
+})
+</script>
 
 <template>
   <main>
