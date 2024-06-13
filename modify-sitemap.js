@@ -10,7 +10,7 @@ async function modifySitemap() {
 
     const baseUrl = 'https://profile.2fishs.com/'
     const regex = /http:\/\/localhost\/(.*)/
-    const replacedXmlContent = xmlContent.replace(regex, (match, p1) => `http://${baseUrl}${p1}`)
+    const replacedXmlContent = xmlContent.replace(regex, (match, p1) => `${baseUrl}${p1}`)
 
     await fsPromises.writeFile(filePath, replacedXmlContent, 'utf8')
     console.log('Sitemap modified successfully.')
