@@ -12,7 +12,7 @@ export default defineConfig({
     ViteImages(),
     sitemap({
       // 設定 sitemap 的基本路徑
-      baseUrl: 'https://simpleportfolio-64b60.web.app/',
+      baseUrl: 'https://profile.2fishs.com/',
       // 指定生成 sitemap 的路徑
       outputPath: 'dist/sitemap.xml'
     })
