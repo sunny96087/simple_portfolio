@@ -75,8 +75,8 @@ const projects = ref([
     name: '我的部落格',
     description:
       '這是我的部落格，分享日常研究及開發點滴，<br/>使用 Hexo 和 "landscape" 主題建立。',
-    github: 'https://sunny96087.github.io/hexo-blog/',
-    demo: 'https://github.com/sunny96087/hexo-blog',
+    github: 'https://github.com/sunny96087/hexo-blog',
+    demo: 'https://sunny96087.github.io/hexo-blog/',
     viewPic: viewPic6,
     marquee:
       '我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ '

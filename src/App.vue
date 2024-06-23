@@ -149,7 +149,7 @@ const sendProfileEvent = (item) => {
       </a>
 
       <a
-        href="https://github.com/sunny96087/hexo-blog"
+        href="https://sunny96087.github.io/hexo-blog/"
         target="_blank"
         class="icon-hover-fill-blue-dark"
         title="部落格"
@@ -286,7 +286,7 @@ const sendProfileEvent = (item) => {
 
     <!-- Navbar -->
     <nav
-      class="my-10 p-1 bg-blue-light rounded-[8px] inline-block flex-nowrap sticky top-5 shadow z-[999]"
+      class="my-10 p-1 bg-blue-light rounded-[8px] inline-block flex-nowrap sticky top-5 shadow z-[999] cursor-pointer"
     >
       <RouterLink to="/" class="nav-item" @click="sendEvent('經歷')">經歷</RouterLink>
       <RouterLink to="/portfolio" class="nav-item" @click="sendEvent('作品集')">作品集</RouterLink>
