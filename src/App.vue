@@ -124,7 +124,7 @@ const sendProfileEvent = (item) => {
       </div>
     </div>
     <h1 class="text-[26px] mt-3">余誼姍 Sunny 👋</h1>
-    <h2 class="text-blue-dark font-medium text-[14px] mt-1">前端工程師 Frontend Developer</h2>
+    <h2 class="text-blue-dark font-medium text-[14px] mt-1">全端工程師 Full-Stack Developer</h2>
     <!-- github & email & linkedin -->
     <div class="flex justify-center gap-2 mt-2">
       <a
@@ -224,12 +224,12 @@ const sendProfileEvent = (item) => {
     <!-- about me -->
     <div class="flex justify-center gap-7 mt-5">
       <div class="flex flex-col">
-        <p class="font-semibold">4Y +</p>
+        <p class="font-semibold">1Y +</p>
         <p class="text-[14px] font-medium text-blue-dark">工作經驗</p>
       </div>
 
       <div class="flex flex-col">
-        <p class="font-semibold">8 +</p>
+        <p class="font-semibold">14 +</p>
         <p class="text-[14px] font-medium text-blue-dark">完成專案</p>
       </div>
 

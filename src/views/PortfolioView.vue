@@ -56,7 +56,64 @@ const viewPic8 = ref(
   'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-8.png?alt=media&token=b191db34-2aba-4417-8a21-28026c6fb167'
 )
 
+const projectPic9 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fproject-pic-9.png?alt=media&token=38281363-018b-4bef-83fd-a175a8b5e9f3'
+)
+const viewPic9 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-9.png?alt=media&token=e30b4b25-d2eb-480e-9539-a4ebc2f62d21'
+)
+
+const projectPic10 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fproject-pic-10.png?alt=media&token=24ca7256-fcb6-4699-ba6d-9a10374f32aa'
+)
+const viewPic10 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-10.png?alt=media&token=3677025c-4d21-445a-b146-ff3aef1fbb09'
+)
+
+const projectPic11 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fproject-pic-11.png?alt=media&token=fee44947-3b85-4c1f-b28f-1d46d3b48af3'
+)
+const viewPic11 = ref(
+  'https://firebasestorage.googleapis.com/v0/b/simpleportfolio-64b60.appspot.com/o/img%2Fview-pic-11.png?alt=media&token=8a0c4d19-a3eb-44c1-aea5-c255f11668ee'
+)
+
 const projects = ref([
+  {
+    pic: projectPic9,
+    type: 'WEB',
+    name: '鸚鸚食堂 Parrot Bistro',
+    description:
+      '這是一個鸚鵡相關知識平台，主要提供計算鸚鵡每日攝取量的功能。<br/>此外，平台還包括品種介紹、醫療資訊、食物建議和表單回饋等頁面。<br/>專案由我獨自發想、設計，並進行前後端開發。<br/>前端使用 Nuxt 3 和 TypeScript 技術，<br/>後端採用 Node.js、Express 和 MongoDB。<br/>這個專案不僅展示了我的全端開發能力，<br/>還體現了我在專案設計和實現上的獨立作業能力。',
+    github: 'https://github.com/sunny96087/parrot_web',
+    demo: 'https://parrot.2fishs.com/',
+    viewPic: viewPic9,
+    marquee:
+      '鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ 鸚鸚食堂 Parrot Bistro ・ '
+  },
+  {
+    pic: projectPic10,
+    type: 'WEB',
+    name: 'Ciao!Craft - DIY 手作平台',
+    description:
+      '這是一個體驗課程預約平台，分為前台和後台。<br/>前台提供課程資訊查詢和下單等功能，<br/>後台則供品牌方進行課程上架和訂單等資料管理。<br/>我負責後台的前後端開發，同時擔任組長。<br/>前端使用 Nuxt 3 和 TypeScript 等技術，<br/>後端採用 Express、Mongoose、MongoDB 和 WebSocket。<br/>這是我在六角學院 Node.js 班的團體專題。<br/>這專案不僅加強了我的前後端開發技能，還提升了團隊協作中的溝通和領導能力。',
+    github: 'https://github.com/sunny96087/ciaocraft-website',
+    demo: 'https://ciaocraft-website.vercel.app/',
+    viewPic: viewPic10,
+    marquee:
+      'Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ Ciao!Craft - DIY 手作平台 ・ '
+  },
+  {
+    pic: projectPic11,
+    type: 'WEB',
+    name: '食享 TasteJoy',
+    description:
+      '這是一個美食紀錄平台，<br/>提供使用者記錄自己的美食地圖、參與論壇、加好友、分享美食紀錄以及隨機抽取美食等功能。<br/>我帶領一群想轉職的程式小白共同製作這個專案，<br/>負責專案發想、網頁 UI 設計、資料庫規劃與建立，以及 API 開發。<br/>目前專案還在進行中。<br/>這個專案展示了我的領導能力和技術指導能力，並且強化了我的專案管理和全端開發技能。',
+    github: 'https://github.com/sunny96087/tastejoy_api',
+    demo: '',
+    viewPic: viewPic11,
+    marquee:
+      '食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ 食享 TasteJoy ・ '
+  },
   {
     pic: projectPic5,
     type: 'WEB',
@@ -100,7 +157,7 @@ const projects = ref([
     description:
       '這是我的個人作品集網站，<br>使用 Vue 3、Composition API 和 Vite 開發，<br>展示了我的經歷、專案和技能。',
     github: 'https://github.com/sunny96087/simple_portfolio',
-    demo: 'https://simpleportfolio-64b60.web.app/portfolio',
+    demo: 'https://profile.2fishs.com/',
     viewPic: viewPic8,
     marquee:
       '個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ 個人作品集 ・ '
@@ -239,7 +296,7 @@ const sendDemoEvent = (itemName) => {
           <h4 class="font-semibold text-[20px]">{{ item.name }}</h4>
           <div v-html="item.description" class="tracking-wider leading-[26px]"></div>
           <div class="btn-row">
-            <a :href="item.github" target="_blank" class="btn-fill" @click="sendGithubEvent(item.name)">
+            <a v-if="item.github" :href="item.github" target="_blank" class="btn-fill" @click="sendGithubEvent(item.name)">
               <svg
                 width="24"
                 height="24"
@@ -254,7 +311,7 @@ const sendDemoEvent = (itemName) => {
               </svg>
               GitHub
             </a>
-            <a :href="item.demo" target="_blank" class="btn-fill" @click="sendDemoEvent(item.name)">
+            <a v-if="item.demo" :href="item.demo" target="_blank" class="btn-fill" @click="sendDemoEvent(item.name)">
               <svg
                 width="24"
                 height="24"

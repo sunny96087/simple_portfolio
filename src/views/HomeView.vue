@@ -1,5 +1,4 @@
 <script setup>
-
 // gtag.js click_action 事件
 window.dataLayer = window.dataLayer || []
 function gtag() {
@@ -173,31 +172,48 @@ document.addEventListener('click', function (e) {
             <div class="dot"></div>
             <div class="line"></div>
             <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
           </div>
 
           <!-- text -->
           <div class="flex flex-col gap-9 w-[220px]">
-            
-            <!-- 嘉好企業有限公司 -->
+            <!-- 六角學院 -->
+            <div class="flex flex-col text-left gap-[6px]">
+              <p class="text-title">
+                專題教練<span class="text-gray-500 text-[14px] ml-1">(兼)</span>
+              </p>
+              <div class="flex flex-col">
+                <p class="text-location">六角學院</p>
+                <p class="text-date">
+                  <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
+                  2024.07 ~ <span class="font-semibold">現職</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- 銳傑資訊設計企業社 -->
             <div class="flex flex-col text-left gap-[6px]">
               <p class="text-title">全端工程師</p>
               <div class="flex flex-col">
                 <p class="text-location">銳傑資訊設計企業社</p>
                 <p class="text-date">
                   <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
-                  2024.03 ~ 現職
+                  2024.03 ~ <span class="font-semibold">現職</span>
                 </p>
               </div>
             </div>
 
             <!-- 嘉好企業有限公司 -->
             <div class="flex flex-col text-left gap-[6px]">
-              <p class="text-title">前端工程師(兼)</p>
+              <p class="text-title">
+                前端工程師<span class="text-gray-500 text-[14px] ml-1">(兼)</span>
+              </p>
               <div class="flex flex-col">
                 <p class="text-location">嘉好企業有限公司</p>
                 <p class="text-date">
                   <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
-                  2024.03 ~ 現職
+                  2024.03 ~ <span class="font-semibold">現職</span>
                 </p>
               </div>
             </div>
@@ -216,7 +232,7 @@ document.addEventListener('click', function (e) {
 
             <!-- 中華民國空軍 -->
             <div class="flex flex-col text-left gap-[6px]">
-              <p class="text-title">無線電維護士</p>
+              <p class="text-title">飛機維護士</p>
               <div class="flex flex-col">
                 <p class="text-location">中華民國空軍</p>
                 <p class="text-date">
