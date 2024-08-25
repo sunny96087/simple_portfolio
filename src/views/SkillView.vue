@@ -39,6 +39,7 @@ document.addEventListener('click', function (e) {
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Mongoose</div>
             </div>
             <div class="content-col">
+              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Express</div>
               <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />PHP</div>
               <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />MSSQL</div>
               <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />Linux</div>

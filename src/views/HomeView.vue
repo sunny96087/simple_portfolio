@@ -66,10 +66,24 @@ document.addEventListener('click', function (e) {
             <div class="dot"></div>
             <div class="line"></div>
             <div class="dot"></div>
+            <div class="line"></div>
+            <div class="dot"></div>
           </div>
 
           <!-- text -->
           <div class="flex flex-col gap-9 w-[220px]">
+            <!-- 空大 -->
+            <div class="flex flex-col text-left gap-[6px]">
+              <p class="text-title">管理資訊學系</p>
+              <div class="flex flex-col">
+                <p class="text-location">國立空中大學</p>
+                <p class="text-date">
+                  <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
+                  2024.09 ~ 現在
+                </p>
+              </div>
+            </div>
+
             <!-- 六角 -->
             <div class="flex flex-col text-left gap-[6px]">
               <p class="text-title">Node.js 直播班</p>
@@ -213,7 +227,7 @@ document.addEventListener('click', function (e) {
                 <p class="text-location">嘉好企業有限公司</p>
                 <p class="text-date">
                   <img src="@/assets/img/icon/calendar.svg" alt="calendar" />
-                  2024.03 ~ <span class="font-semibold">現職</span>
+                  2024.03 ~ 2024.08
                 </p>
               </div>
             </div>
