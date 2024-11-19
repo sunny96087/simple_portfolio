@@ -120,7 +120,7 @@ const sendProfileEvent = (item) => {
     <!-- 個人資料 區塊 -->
     <div class="w-[136px] rounded-full border-4 border-blue-dark p-1 m-auto">
       <div class="linear rounded-full overflow-hidden w-full">
-        <img src="@/assets/img/mug_shot.png" alt="Yu Yi shan - 個人照片" class="w-full" />
+        <img src="@/assets/img/mug_shot_1131119.png" alt="Yu Yi shan - 個人照片" class="w-full" />
       </div>
     </div>
     <h1 class="text-[26px] mt-3">余誼姍 Sunny 👋</h1>
@@ -148,8 +148,9 @@ const sendProfileEvent = (item) => {
         </svg>
       </a>
 
+      <!-- * 舊的 https://sunny96087.github.io/hexo-blog/ -->
       <a
-        href="https://sunny96087.github.io/hexo-blog/"
+        href="https://blog.2fishs.com/"
         target="_blank"
         class="icon-hover-fill-blue-dark"
         title="部落格"
@@ -242,7 +243,7 @@ const sendProfileEvent = (item) => {
     <!-- view 履歷 & call me -->
     <div class="flex justify-center gap-5 mt-5">
       <a
-        href="https://drive.google.com/file/d/1A_w2QD9cXCJ-4mzU88pwkkIve02foiHb/view?usp=sharing"
+        href="https://drive.google.com/file/d/1ho_3Av-HUjGR__AbPcuUZUTUyTh6949x/view?usp=sharing"
         target="_blank"
         class="flex items-center text-[14px] font-semibold text-white px-5 py-3 bg-blue btn-shadow rounded-[6px]"
         @click="sendProfileEvent('resume')"

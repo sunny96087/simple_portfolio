@@ -28,9 +28,9 @@ document.addEventListener('click', function (e) {
     >
       <!-- left -->
       <div class="flex flex-col gap-[80px]">
-        <!-- 後端開發 -->
+        <!-- 後端/資料庫 -->
         <div class="flex flex-col gap-7">
-          <div class="title">後端開發</div>
+          <div class="title">後端 / 資料庫</div>
           <div class="content">
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Node.js</div>
@@ -40,9 +40,15 @@ document.addEventListener('click', function (e) {
             </div>
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Express</div>
-              <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />PHP</div>
-              <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />MSSQL</div>
-              <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />Linux</div>
+              <div class="item text-gray-500">
+                <img src="@/assets/img/icon/check.svg" alt="check" />PHP
+              </div>
+              <div class="item text-gray-500">
+                <img src="@/assets/img/icon/check.svg" alt="check" />MSSQL
+              </div>
+              <div class="item text-gray-500">
+                <img src="@/assets/img/icon/check.svg" alt="check" />Linux
+              </div>
             </div>
           </div>
         </div>
@@ -54,7 +60,9 @@ document.addEventListener('click', function (e) {
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Figma</div>
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Mockup</div>
-              <div class="item text-gray-500"><img src="@/assets/img/icon/check.svg" alt="check" />Photoshop</div>
+              <div class="item text-gray-500">
+                <img src="@/assets/img/icon/check.svg" alt="check" />Photoshop
+              </div>
             </div>
             <div class="content-col">
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Wireframe</div>
@@ -65,8 +73,6 @@ document.addEventListener('click', function (e) {
             </div>
           </div>
         </div>
-
-
       </div>
 
       <!-- right -->
@@ -81,7 +87,7 @@ document.addEventListener('click', function (e) {
               <div class="item">
                 <img src="@/assets/img/icon/check.svg" alt="check" />JavaScript
               </div>
-              <div class="item ">
+              <div class="item">
                 <img src="@/assets/img/icon/check.svg" alt="check" />TypeScript
               </div>
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />jQuery</div>
@@ -89,9 +95,9 @@ document.addEventListener('click', function (e) {
               <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Nuxt 3</div>
             </div>
             <div class="content-col">
-              <div class="item "><img src="@/assets/img/icon/check.svg" alt="check" />Github</div>
-              <div class="item "><img src="@/assets/img/icon/check.svg" alt="check" />RWD</div>
-              <div class="item "><img src="@/assets/img/icon/check.svg" alt="check" />Axios</div>
+              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Github</div>
+              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />RWD</div>
+              <div class="item"><img src="@/assets/img/icon/check.svg" alt="check" />Axios</div>
               <div class="item">
                 <img src="@/assets/img/icon/check.svg" alt="check" />Bootstrap 5
               </div>
@@ -123,6 +129,4 @@ document.addEventListener('click', function (e) {
 .item {
   @apply w-[124px] flex items-center gap-2 font-medium col-span-1;
 }
-
-
 </style>

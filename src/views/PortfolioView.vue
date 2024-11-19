@@ -129,14 +129,14 @@ const projects = ref([
   {
     pic: projectPic6,
     type: 'WEB',
-    name: '我的部落格',
+    name: '我的部落格 (舊版)',
     description:
-      '這是我的部落格，分享日常研究及開發點滴，<br/>使用 Hexo 和 "landscape" 主題建立。',
+      '這是我的第一個部落格，分享日常研究及開發點滴，<br/>使用 Hexo 和 "landscape" 主題建立。<br/>目前舊版已停止更新，新版將使用 NexT 主題整合多種套件開發。',
     github: 'https://github.com/sunny96087/hexo-blog',
     demo: 'https://sunny96087.github.io/hexo-blog/',
     viewPic: viewPic6,
     marquee:
-      '我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ 我的部落格 ・ '
+      '我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ 我的部落格 (舊版) ・ '
   },
   {
     pic: projectPic7,
@@ -212,9 +212,13 @@ const projects = ref([
   }
 ])
 
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted, onUnmounted, watch } from 'vue'
 
 const selectedProject = ref(null)
+
+watch(selectedProject, (newVal) => {
+  document.body.style.overflow = newVal ? 'hidden' : ''
+})
 
 const openModal = (project) => {
   selectedProject.value = project
