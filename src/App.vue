@@ -1,7 +1,6 @@
 <script setup>
-import { watchEffect, onMounted, onUnmounted } from 'vue'
+import { watchEffect, onMounted, onUnmounted, computed, ref } from 'vue'
 import { useThemeStore } from '@/stores/themeStore.js'
-import { ref } from 'vue'
 
 const themeStore = useThemeStore()
 
@@ -46,11 +45,11 @@ function gtag() {
 gtag('js', new Date())
 gtag('config', 'G-CRQ1NSS9T8') // 將你的 GA4 串流評估 ID 放在這裡
 
-let startTime;
+let startTime
 
 onMounted(() => {
   // 在頁面載入時記錄開始時間
-  startTime = Date.now();
+  startTime = Date.now()
 
   // 設定監聽 click 事件
   document.addEventListener('click', function (e) {
@@ -68,44 +67,52 @@ onMounted(() => {
 
   // 在頁面卸載時記錄結束時間並發送事件
   window.addEventListener('beforeunload', sendTimeSpentEvent)
-});
+})
 
 onUnmounted(() => {
   // 移除 beforeunload 事件監聽器
   window.removeEventListener('beforeunload', sendTimeSpentEvent)
-});
+})
 
 function sendTimeSpentEvent() {
-  const endTime = Date.now();
-  const timeSpent = endTime - startTime;
-  const timeSpentInSeconds = timeSpent / 1000;
+  const endTime = Date.now()
+  const timeSpent = endTime - startTime
+  const timeSpentInSeconds = timeSpent / 1000
 
-  const startTimeDate = new Date(startTime).toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' });
-  const endTimeDate = new Date(endTime).toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' });
+  const startTimeDate = new Date(startTime).toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' })
+  const endTimeDate = new Date(endTime).toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' })
 
   gtag('event', 'custom_time_spent', {
-    'event_category': 'user_metrics',
-    'start_time': startTimeDate,
-    'end_time': endTimeDate,
-    'all_time': timeSpentInSeconds
-  });
+    event_category: 'user_metrics',
+    start_time: startTimeDate,
+    end_time: endTimeDate,
+    all_time: timeSpentInSeconds
+  })
 }
 
 // GA4 自訂事件 - 點擊分頁事件
 const sendEvent = (pageName) => {
   gtag('event', 'custom_page_click', {
-    'custom_event_category': 'navigation',
-    'custom_event_label': pageName
-  });
-};
+    custom_event_category: 'navigation',
+    custom_event_label: pageName
+  })
+}
 
 // GA4 自訂事件 - 點擊個人資料事件
 const sendProfileEvent = (item) => {
   gtag('event', 'custom_profileInfo_click', {
-    'custom_event_category': 'profileInfo',
-    'custom_event_label': item
-  });
-};
+    custom_event_category: 'profileInfo',
+    custom_event_label: item
+  })
+}
+
+// 聖誕節快樂 > 雪花
+import SnowEffect from '@/components/SnowEffect.vue'
+
+// 計算雪花顏色
+const snowColor = computed(() => {
+  return themeStore.isDarkMode ? 'white' : '#7096CD'
+})
 </script>
 
 <template>
@@ -266,7 +273,11 @@ const sendProfileEvent = (item) => {
         </svg>
       </a>
 
-      <a href="tel:0963460316" class="p-4 border border-blue rounded-[6px] btn-shadow tel-block" @click="sendProfileEvent('phone')">
+      <a
+        href="tel:0963460316"
+        class="p-4 border border-blue rounded-[6px] btn-shadow tel-block"
+        @click="sendProfileEvent('phone')"
+      >
         <svg
           width="24"
           height="24"
@@ -296,6 +307,12 @@ const sendProfileEvent = (item) => {
 
     <!-- 分頁 區塊 -->
     <RouterView />
+
+    <!-- 聖誕節快樂 > 雪花 -->
+    <SnowEffect 
+      :snowflake-count="50"
+      :snow-color="snowColor"
+    />
   </div>
 </template>
 
