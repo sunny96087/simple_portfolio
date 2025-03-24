@@ -131,7 +131,7 @@ const snowColor = computed(() => {
       </div>
     </div>
     <h1 class="text-[26px] mt-3">余誼姍 Sunny 👋</h1>
-    <h2 class="text-blue-dark font-medium text-[14px] mt-1">全端工程師 Full-Stack Developer</h2>
+    <h2 class="text-blue-dark font-medium text-[14px] mt-1">前端工程師 Front-End Developer</h2>
     <!-- github & email & linkedin -->
     <div class="flex justify-center gap-2 mt-2">
       <a
